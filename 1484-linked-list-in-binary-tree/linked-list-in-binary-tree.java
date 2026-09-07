@@ -29,7 +29,7 @@ class Solution {
         return dfs(head, root) || isSubPath(head, root.left) || isSubPath(head, root.right);
     }
 
-    private boolean dfs(ListNode head, TreeNode root) {
+    boolean dfs(ListNode head, TreeNode root) {
         if (head == null) return true;
         if (root == null) return false;
         if (head.val != root.val) return false;
