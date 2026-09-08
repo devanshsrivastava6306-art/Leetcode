@@ -9,7 +9,6 @@ class Solution {
         }
     return -1;
     }
-
     public int sum(int x,int n) {
         int s=0;
         for (int i=x;i<=n;i++) {
