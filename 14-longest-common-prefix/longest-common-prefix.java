@@ -6,7 +6,7 @@ class Solution {
         for(int i = 1;i<strs.length;i++) {
             String current = strs[i];
             int j = 0;
-        while (j < compare.length() && j < current.length() && compare.charAt(j) == current.charAt(j)) {
+        while (j<compare.length() && j<current.length() && compare.charAt(j) == current.charAt(j)) {
                 j++;
             }
             compare=compare.substring(0,j);
