@@ -1,1 +1,1 @@
-<h2>maximum-nesting-depth-of-the-parentheses Notes</h2><hr>[ Time taken: 15m 4s ]
+<h2>maximum-nesting-depth-of-the-parentheses Notes</h2><hr>[ Time taken: 8hrs 11m 14s ]
